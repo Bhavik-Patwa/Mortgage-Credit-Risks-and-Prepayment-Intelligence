@@ -1,0 +1,9 @@
+[Unit]
+Description=Mortgage Risk FastAPI Service
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/mortgage-risk-fastapi
+ExecStart=/home/ubuntu/mortgage-risk-fastapi/.venv/bin/uvicorn app.fastapiApp:app --host 0.0.0.0 --port 8000
+Restart=always
