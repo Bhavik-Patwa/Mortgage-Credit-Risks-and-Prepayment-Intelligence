@@ -12,6 +12,6 @@ https://public.tableau.com/app/profile/bhavik.patwa/vizzes
 - Distress Transition Watchlist Dashboard
 
 ## Notes
-- The original live workbook was connected to Databricks tables from the `mortgage_risk.analytics` schema.
+- The original live workbook was connected to Databricks tables from the 'mortgage_risk.analytics' schema.
 - A separate extract version was created to allow publication through Tableau Public.
 - Tableau Public was used for portfolio sharing only.
