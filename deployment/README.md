@@ -1,4 +1,5 @@
 ## EC2 Setup Commands for Running FastAPI App
+```
 sudo apt update
 sudo apt install -y python3-pip python3-venv
 
@@ -10,21 +11,32 @@ source .venv/bin/activate
 
 mkdir -p app
 pip install fastapi uvicorn pandas pyarrow s3fs boto3
+```
 ### Running the FastAPI app manually for testing before background service setup
+```
 uvicorn app.fastapiApp :app --host 0.0.0.0 --port 8000
-
+```
 ### Creating the systemd service file so FastAPI can run in the background
+```
 sudo nano /etc/systemd/system/mortgage-risk-fastapi.service
+```
 
 ### Reloading systemd so it detects the new service file
-### Enabling the service so it can start automatically
-### Checking whether the FastAPI service is running properly
-### Starting the FastAPI service
+```
 sudo systemctl daemon-reload
+```
+### Enabling the service so it can start automatically
+```
 sudo systemctl enable mortgage-risk-fastapi
+```
+### Starting the FastAPI service
+```
 sudo systemctl start mortgage-risk-fastapi
+```
+### Checking whether the FastAPI service is running properly
+```
 sudo systemctl status mortgage-risk-fastapi
-
+```
 
 ## Testing in browser
 
