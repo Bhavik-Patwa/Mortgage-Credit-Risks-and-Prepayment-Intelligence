@@ -181,6 +181,9 @@ These metrics anchor the rest of the analysis in exposure terms, not only loan c
 The final Tableau layer turns the analysis into four business-facing dashboards.
 
 ### Executive Portfolio Overview
+![Executive Portfolio Overview](tableau/Executive%20Portfolio%20Overview.png)
+
+### Executive Portfolio Overview
 This dashboard summarizes :
 - active loans
 - active total UPB
@@ -220,12 +223,16 @@ The API exposes the same analytical outputs programmatically.
 
 It runs on EC2 and reads Parquet outputs from S3.
 
+### FastAPI App Screenshot
+![FastAPI App Preview](src/api/FastAPI%20UI%20screenshot.png)
+
 The FastAPI application in this repository is :
 - `src/api/fastapiApp.py`
 
 Available routes include :
 - `/health`
 - `/summary`
+- `/docs`
 - `/business-findings`
 - `/vintages`
 - `/states`
