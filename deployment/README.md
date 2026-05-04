@@ -43,12 +43,12 @@ sudo systemctl status mortgage-risk-fastapi
 Once the FastAPI service is running, open the app using the EC2 public DNS name on port `8000`.
 
 Examples :
-- `http://<EC2-PUBLIC-DNS> :8000/`
-- `http://<EC2-PUBLIC-DNS> :8000/health`
-- `http://<EC2-PUBLIC-DNS> :8000/docs`
+- `http://<EC2-PUBLIC-DNS>:8000/`
+- `http://<EC2-PUBLIC-DNS>:8000/health`
+- `http://<EC2-PUBLIC-DNS>:8000/docs`
 
 Example pattern :
-- `http://ec2-xx-xxx-xxx-xxx.compute-1.amazonaws.com :8000/health`
+- `http://ec2-xx-xxx-xxx-xxx.compute-1.amazonaws.com:8000/health`
 
 Notes :
 - The security group must allow inbound traffic on port `8000` from the allowed IP.
