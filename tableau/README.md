@@ -12,16 +12,16 @@ https://public.tableau.com/app/profile/bhavik.patwa/vizzes
 - Distress Transition Watchlist Dashboard
 
 ### Executive Portfolio Overview
-![Executive Portfolio Overview](tableau/Executive%20Portfolio%20Overview.png)
+![Executive Portfolio Overview](./tableau/Executive%20Portfolio%20Overview.png)
 
 ### Risk Drivers Dashboard
-![Risk Drivers Dashboard](tableau/Risk%20Drivers%20Dashboard.png)
+![Risk Drivers Dashboard](./tableau/Risk%20Drivers%20Dashboard.png)
 
 ### Vintage and Prepayment Dashboard
-![Vintage and Prepayment Dashboard](tableau/Vintage%20and%20Prepayment%20Dashboard.png)
+![Vintage and Prepayment Dashboard](./tableau/Vintage%20and%20Prepayment%20Dashboard.png)
 
 ### Distress Transition Watchlist Dashboard
-![Distress Transition Watchlist Dashboard](tableau/Distress%20Transition%20Watchlist%20Dashboard.png)
+![Distress Transition Watchlist Dashboard](./tableau/Distress%20Transition%20Watchlist%20Dashboard.png)
 
 
 ## Notes
